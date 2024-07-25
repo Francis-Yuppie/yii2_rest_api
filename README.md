@@ -127,6 +127,9 @@ return [
 - Check and edit the other files in the `config/` directory to customize your application as required.
 - Refer to the README in the `tests` directory for information specific to basic application tests.
 
+**APP SET UP**
+ -create models php yii gii/model --tableName=book --modelClass=Book  
+ -create controller php yii gii/controller --controllerClass=app\\controllers\\MemberController --baseClass=yii\\rest\\ActiveController
 
 TESTING
 -------
